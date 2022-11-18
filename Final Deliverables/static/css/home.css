@@ -1,0 +1,84 @@
+
+@font-face {
+  font-family: gotham-bold;
+  src: url(/styles/fonts/GothamBold.ttf);
+}
+@font-face {
+  font-family: gotham-light;
+  src: url(/styles/fonts/GothamRoundedLight_21020.ttf);
+}
+@font-face {
+  font-family: helvetica-light;
+  src: url(/styles/fonts/HelveticaNeue-Light.ttf);
+}
+@font-face {
+  font-family: helvetica-medium;
+  src: url(/styles/fonts/HelveticaNeue-Medium.ttf);
+}
+@font-face {
+  font-family: helvetica-bold;
+  src: url(/styles/fonts/HelveticaNeue-Bold.ttf);
+}
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+button,
+button:focus,
+button:active,
+input:focus,
+input:active,
+select:focus,
+select:active {
+  outline: none;
+  border: none;
+}
+#itemImage {
+	height: 200px;
+	width: 150px;
+}
+
+.display {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+table {
+	border-spacing: 20px;
+}
+
+#productName {
+	text-align: center;
+	font-weight: bold;
+}
+
+#productPrice {
+	text-align: center;
+}
+
+.displayCategory ul li {
+	font-size: 22px;
+}
